@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fist-O 3D </title>
+    <link href="image/Fisto logo.png" rel="icon">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700'>
+    <link rel="stylesheet" href="Ar.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+    <style>
+      model-viewer#reveal {
+        --poster-color: transparent;		
+      }
+    </style>
+    
+</head>
+<body>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+       <!-- <div class="logo"><a href="#"> <img src="image/Fisto logo1.png" alt="logo"></a></div> -->
+        <ul class="links">
+          <li><a class="active"  href="#" >Home</a></li>
+          <li><a href="#">AboutUs</a></li	>
+           
+          <li><a >Services <i class="fas fa-caret-down fa-lg"></i></a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+        
+        <!-- End Header -->
+
+      <section id="home" class="home">
+
+    
+
+        <!--  <div class="iconsbg"><img src="image/left.png" alt=""></div>
+          <div class="icons">
+              <div class="insta"><img src="image/insta.png" ></div>  
+              <div class="fb"><img src="image/facebook.png" ></div>  
+              <div class="tw"><img src="image/twitter.png" ></div>  
+              <div class="wt"><img src="image/whatsapp.png" ></div> 
+           
+          </div>
+
+          <div class="dots"><img src="image/dots.png" ></div>
+          -->
+          
+  
+       <div class="home-container">
+      
+        <div class="home-text" >
+             <div data-aos="fade-right"><h2>AUGMENTED REALITY </h2> </div>
+            <div ><h3 class="animate__animated animate__bounce"> ADVANCE INTARACTIVE</h3> </div>
+           <!-- <div class="qr"><img src="image/fisto 3d interactive1.png" ></div>-->
+              </div>
+        <div class="home-image">
+          <div class="img">
+            <model-viewer id="reveal" loading="eager" camera-controls auto-rotate ar poster="https://cdn.glitch.global/06318f0d-a03b-4d32-aada-66342b32fd9f/poster.webp?v=1648206113258" 
+            src="image/Chair.glb"  autoplay ar ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral"  shadow-intensity="1" alt="">
+            </model-viewer>
+          </div>
+       </div>
+    
+      </div>
+      </section>
+      <div class="down">
+        <div class="img">
+          <model-viewer id="reveal" loading="eager" camera-controls auto-rotate ar poster="https://cdn.glitch.global/06318f0d-a03b-4d32-aada-66342b32fd9f/poster.webp?v=1648206113258" 
+          src="image/Chair.glb"  autoplay ar ar-modes="scene-viewer webxr quick-look"
+           camera-controls environment-image="neutral"  shadow-intensity="1" alt="">
+          </model-viewer>
+        </div>
+      </div>
+
+        <!--<div class="www"><h3>www.fist-o.com</h3></div>-->
+
+
+      </body>
+</html>
